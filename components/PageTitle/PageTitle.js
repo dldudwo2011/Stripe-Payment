@@ -1,12 +1,12 @@
 import React from "react";
 
-import Styles from "./styles.module.css";
+import styles from './styles.module.scss'
 
-function PageTitle({ children, ...props }) {
+function PageTitle({children, tagline, title, ...props}) {
   return (
-      <header>
-        <h1>StoreFront</h1>
-        <p>tagline</p>
+      <header className={styles.pageTitle}>
+        <h1>{title}</h1>
+        <p>{tagline}</p>
       </header>
   );
 }
