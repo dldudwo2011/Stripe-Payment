@@ -1,0 +1,16 @@
+.page-title {
+  text-align: center;
+  margin: 4rem 0 0;
+  color: #fde047;
+
+  h1{
+    font-size: clamp(4rem,18vw,10rem);
+    font-weight: 800;
+    line-height: 1;
+  }
+  p{
+    font-size: clamp(2rem,5vw,3rem);
+    font-weight: 600;
+    color: #fef9c3;
+  }
+}
