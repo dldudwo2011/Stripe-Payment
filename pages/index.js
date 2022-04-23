@@ -1,4 +1,4 @@
-import styles from "./../styles/home.module.css";
+import styles from "./../styles/Home.module.css";
 import { loadStripe } from "@stripe/stripe-js";
 import Head from "next/head";
 // Make sure to call `loadStripe` outside of a component’s render to avoid
