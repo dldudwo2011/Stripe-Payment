@@ -1,21 +1,23 @@
 {
-  "name": "storefront",
-  "version": "0.1.0",
-  "private": true,
+  "name": "stripe-sample",
+  "version": "0.0.0",
+  "description": "Full-stack example using Next.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "next": "12.1.2",
-    "react": "18.0.0",
-    "react-dom": "18.0.0",
-    "sass": "^1.49.9"
-  },
-  "devDependencies": {
-    "eslint": "8.12.0",
-    "eslint-config-next": "12.1.2"
+    "@stripe/react-stripe-js": "1.4.1",
+    "@stripe/stripe-js": "1.15.1",
+    "micro": "latest",
+    "micro-cors": "latest",
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.49.9",
+    "stripe": "^8.202.0",
+    "styled-components": "^5.3.5",
+    "swr": "^1.2.2"
   }
 }
