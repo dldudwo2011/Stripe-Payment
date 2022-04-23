@@ -1,7 +1,7 @@
 import React from "react";
 import "./notFound.scss";
 
-function PageNotFound(props) {
+function Custom404(props) {
   return (
     <>
       <div className="back-ground">
@@ -32,4 +32,4 @@ function PageNotFound(props) {
   );
 }
 
-export default PageNotFound;
+export default Custom404;
