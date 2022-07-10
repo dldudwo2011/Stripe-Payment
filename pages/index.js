@@ -25,14 +25,6 @@ function Product({
   numberOfColours,
   ...props
 }) {
-  // const name = "test";
-  // function onHandlePurchase() {
-  //   fetch("api/products", {
-  //     method: "POST",
-  //     body: JSON.stringify({ key }),
-  //   });
-  // }
-
   const cardWidth = {
     width: "18rem",
   };
@@ -84,9 +76,7 @@ function Product({
 }
 
 function IndexPage(props) {
-  const featuredProducts = Object.values(props.products).slice(0, 3);
-
-  console.log(featuredProducts);
+  const featuredProducts = Object.values(props.products).slice(3, 6);
 
   const styleObj = {
     height: "calc(100vh - 5rem)",
