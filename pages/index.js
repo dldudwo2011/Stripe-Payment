@@ -76,7 +76,7 @@ function Product({
 }
 
 function IndexPage(props) {
-  const featuredProducts = Object.values(props.products).slice(3, 6);
+  const featuredProducts = Object.values(props.products);
 
   const styleObj = {
     height: "calc(100vh - 5rem)",
